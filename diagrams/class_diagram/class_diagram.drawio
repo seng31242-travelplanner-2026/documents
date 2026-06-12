@@ -1,0 +1,311 @@
+<mxfile host="app.diagrams.net" agent="Gemini">
+  <diagram id="travel-system-class-diagram" name="Page-1">
+    <mxGraphModel dx="4112" dy="2804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UserAccount_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="170" width="180" x="480" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="UserAccount_title" parent="UserAccount_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;UserAccount&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UserAccount_attributes" parent="UserAccount_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ username&lt;br&gt;+ password&lt;br&gt;+ email&lt;br&gt;+ role" vertex="1">
+          <mxGeometry height="65" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UserAccount_methods" parent="UserAccount_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ register()&lt;br&gt;+ login()" vertex="1">
+          <mxGeometry height="45" width="180" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Tourist_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="150" width="160" x="-340" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="Tourist_title" parent="Tourist_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Tourist&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tourist_attributes" parent="Tourist_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ profileDetails&lt;br&gt;+ bookingHistory" vertex="1">
+          <mxGeometry height="45" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tourist_methods" parent="Tourist_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ createTripPlan()&lt;br&gt;+ writeReview()" vertex="1">
+          <mxGeometry height="45" width="160" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelOwner_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="165" width="170" x="990" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelOwner_title" parent="HotelOwner_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;HotelOwner&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelOwner_attributes" parent="HotelOwner_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ propertyList" vertex="1">
+          <mxGeometry height="30" width="170" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelOwner_methods" parent="HotelOwner_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ setAvailability()&lt;br&gt;+ addProperty()&lt;br&gt;+ manageRooms()&lt;br&gt;+ setRoomPrices()" vertex="1">
+          <mxGeometry height="75" width="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportProvider_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="165" width="180" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportProvider_title" parent="TransportProvider_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;TransportProvider&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportProvider_attributes" parent="TransportProvider_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ vehicleList" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportProvider_methods" parent="TransportProvider_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ setAvailability()&lt;br&gt;+ addVehicles()&lt;br&gt;+ updateVehicleDetails()&lt;br&gt;+ setPricing()" vertex="1">
+          <mxGeometry height="75" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TouristGuide_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="165" width="180" x="880" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="TouristGuide_title" parent="TouristGuide_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;TouristGuide&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TouristGuide_attributes" parent="TouristGuide_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ serviceList" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TouristGuide_methods" parent="TouristGuide_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ setAvailability()&lt;br&gt;+ addTourServices()&lt;br&gt;+ updateTourDetails()&lt;br&gt;+ provideGuidanceService()" vertex="1">
+          <mxGeometry height="75" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Admin_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="155" width="200" x="1290" y="-155" as="geometry" />
+        </mxCell>
+        <mxCell id="Admin_title" parent="Admin_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Admin&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Admin_methods" parent="Admin_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ manageUsers()&lt;br&gt;+ manageDestinations()&lt;br&gt;+ handleComplaints()&lt;br&gt;+ performSystemMaintenance()" vertex="1">
+          <mxGeometry height="75" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Admin_attributes" parent="Admin_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="" vertex="1">
+          <mxGeometry height="20" width="200" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="e_t_u" edge="1" parent="1" source="Tourist_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="UserAccount_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ho_u" edge="1" parent="1" source="HotelOwner_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="UserAccount_main" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_tp_u" edge="1" parent="1" source="TransportProvider_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="UserAccount_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tg_u" edge="1" parent="1" source="TouristGuide_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="UserAccount_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_u" edge="1" parent="1" source="Admin_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="UserAccount_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Destination_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="130" width="150" x="-260" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="Destination_title" parent="Destination_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Destination&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Destination_attributes" parent="Destination_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ name&lt;br&gt;+ details" vertex="1">
+          <mxGeometry height="40" width="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Destination_methods" parent="Destination_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ getInfo()" vertex="1">
+          <mxGeometry height="30" width="150" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TripPlan_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="140" width="160" x="-310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TripPlan_title" parent="TripPlan_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;TripPlan&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TripPlan_attributes" parent="TripPlan_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ planID&lt;br&gt;+ destinations" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TripPlan_methods" parent="TripPlan_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ create()&lt;br&gt;+ addDestination()" vertex="1">
+          <mxGeometry height="40" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Review_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="135" width="150" x="-510" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Review_title" parent="Review_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Review&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Review_attributes" parent="Review_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ reviewID&lt;br&gt;+ content&lt;br&gt;+ rating" vertex="1">
+          <mxGeometry height="55" width="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Review_methods" parent="Review_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="150" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Booking_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="195" width="170" x="70" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Booking_title" parent="Booking_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Booking&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Booking_attributes" parent="Booking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ bookingID&lt;br&gt;+ status&lt;br&gt;+ dates" vertex="1">
+          <mxGeometry height="50" width="170" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Booking_methods" parent="Booking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ request()&lt;br&gt;+ accept()&lt;br&gt;+ reject()&lt;br&gt;+ cancel()&lt;br&gt;+ requestRefund()" vertex="1">
+          <mxGeometry height="85" width="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelBooking_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="100" width="140" x="-10" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelBooking_title" parent="HotelBooking_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;HotelBooking&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelBooking_attributes" parent="HotelBooking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HotelBooking_methods" parent="HotelBooking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportBooking_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="100" width="140" x="455" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportBooking_title" parent="TransportBooking_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;TransportBooking&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportBooking_attributes" parent="TransportBooking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TransportBooking_methods" parent="TransportBooking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TourBooking_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="100" width="140" x="740" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="TourBooking_title" parent="TourBooking_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;TourBooking&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TourBooking_attributes" parent="TourBooking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TourBooking_methods" parent="TourBooking_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eb1" edge="1" parent="1" source="HotelBooking_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Booking_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb2" edge="1" parent="1" source="TransportBooking_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Booking_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb3" edge="1" parent="1" source="TourBooking_main" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Booking_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hotel_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="120" width="130" x="-130" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Hotel_title" parent="Hotel_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hotel&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hotel_attributes" parent="Hotel_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ hotelID&lt;br&gt;+ name" vertex="1">
+          <mxGeometry height="40" width="130" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hotel_methods" parent="Hotel_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Room_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="130" width="140" x="-110" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="Room_title" parent="Room_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Room&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Room_attributes" parent="Room_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ roomNumber&lt;br&gt;+ price&lt;br&gt;+ availability" vertex="1">
+          <mxGeometry height="50" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Room_methods" parent="Room_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hotel_room" edge="1" parent="1" source="Room_main" style="endArrow=diamond;endSize=14;endFill=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Hotel_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hb_room" edge="1" parent="1" source="HotelBooking_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Room_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicle_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="120" width="140" x="520" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicle_title" parent="Vehicle_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Vehicle&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicle_attributes" parent="Vehicle_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ type&lt;br&gt;+ plateNumber" vertex="1">
+          <mxGeometry height="40" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vehicle_methods" parent="Vehicle_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tb_vehicle" edge="1" parent="1" source="TransportBooking_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Vehicle_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TourService_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="115" width="140" x="760" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="TourService_title" parent="TourService_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;TourService&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TourService_attributes" parent="TourService_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ serviceDetails" vertex="1">
+          <mxGeometry height="35" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TourService_methods" parent="TourService_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="140" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tgb_service" edge="1" parent="1" source="TourBooking_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="TourService_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="105" width="150" x="860" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_title" parent="Payment_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Payment&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_attributes" parent="Payment_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ paymentID&lt;br&gt;+ amount&lt;br&gt;+ status" vertex="1">
+          <mxGeometry height="55" width="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_methods" parent="Payment_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="150" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Notification_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="105" width="160" x="860" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Notification_title" parent="Notification_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Notification&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Notification_attributes" parent="Notification_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ notificationID&lt;br&gt;+ content&lt;br&gt;+ recipient" vertex="1">
+          <mxGeometry height="55" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Notification_methods" parent="Notification_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="" vertex="1">
+          <mxGeometry height="20" width="160" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Report_main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="130" width="150" x="1210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Report_title" parent="Report_main" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;Report&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Report_attributes" parent="Report_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="+ reportID&lt;br&gt;+ reportType" vertex="1">
+          <mxGeometry height="40" width="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Report_methods" parent="Report_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;borderTop=1;" value="+ generateData()" vertex="1">
+          <mxGeometry height="30" width="150" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tourist_tripplan" edge="1" parent="1" source="Tourist_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="TripPlan_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tripplan_dest" edge="1" parent="1" source="TripPlan_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Destination_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tourist_review" edge="1" parent="1" source="Tourist_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Review_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tourist_booking" edge="1" parent="1" source="Tourist_main" style="endArrow=none;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Booking_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_booking_payment" edge="1" parent="1" source="Booking_main" style="endArrow=open;dashed=1;endSize=12;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Payment_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_booking_notification" edge="1" parent="1" source="Booking_main" style="endArrow=open;dashed=1;endSize=12;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Notification_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_report" edge="1" parent="1" source="Admin_main" style="endArrow=open;dashed=1;endSize=12;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" target="Report_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

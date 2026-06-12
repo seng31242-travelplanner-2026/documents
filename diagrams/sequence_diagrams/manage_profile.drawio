@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="yo9D_AiS6M3SBNJeygn5">
+    <mxGraphModel dx="1857" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="User&#xa;(Tourist/Owner/Provider/Guide)" vertex="1">
+          <mxGeometry height="963" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="System" vertex="1">
+          <mxGeometry height="963" width="150" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-3" parent="u8U2fjMdBCgEXtrNAYDi-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="70" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-4" parent="u8U2fjMdBCgEXtrNAYDi-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="380" width="10" x="70" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-5" parent="u8U2fjMdBCgEXtrNAYDi-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="70" y="794" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-6" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="286" width="551" x="130" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-7" parent="u8U2fjMdBCgEXtrNAYDi-6" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Inputs Invalid (Alt Flow 1 / Failure)]" vertex="1">
+          <mxGeometry height="20" width="521" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-8" parent="u8U2fjMdBCgEXtrNAYDi-6" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Inputs Valid (Success Path)]" vertex="1">
+          <mxGeometry height="3" width="551" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-9" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="opt" vertex="1">
+          <mxGeometry height="155" width="460" x="130" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-10" parent="u8U2fjMdBCgEXtrNAYDi-9" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[User cancels editing (Alt Flow 2)]" vertex="1">
+          <mxGeometry height="20" width="430" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-11" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-3" value="Open profile settings">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="367" y="177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-12" parent="u8U2fjMdBCgEXtrNAYDi-11" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-224.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-13" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-1" value="Display current profile information">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-14" parent="u8U2fjMdBCgEXtrNAYDi-13" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="208.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-15" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-4" value="Submit edited details (phone, email, etc.)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="367" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-16" parent="u8U2fjMdBCgEXtrNAYDi-15" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-224.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-17" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-4" style="curved=1;endArrow=block;rounded=0;" target="u8U2fjMdBCgEXtrNAYDi-4" value="Validate inputs (BR-03: Contact formats)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="387" />
+              <mxPoint x="630" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-18" parent="u8U2fjMdBCgEXtrNAYDi-17" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-19" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-1" value="Display validation error messages">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-20" parent="u8U2fjMdBCgEXtrNAYDi-19" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="208.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-21" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-4" style="curved=1;endArrow=block;rounded=0;" target="u8U2fjMdBCgEXtrNAYDi-4" value="Save updates to database">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="619" />
+              <mxPoint x="630" y="649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-22" parent="u8U2fjMdBCgEXtrNAYDi-21" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-23" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-1" value="Display profile updated successfully confirmation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-24" parent="u8U2fjMdBCgEXtrNAYDi-23" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="208.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-25" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-5" value="Cancel editing session">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="367" y="814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-26" parent="u8U2fjMdBCgEXtrNAYDi-25" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-224.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-27" edge="1" parent="1" source="u8U2fjMdBCgEXtrNAYDi-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="u8U2fjMdBCgEXtrNAYDi-1" value="Redirect back to dashboard without saving changes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="868" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-28" parent="u8U2fjMdBCgEXtrNAYDi-27" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="208.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-29" parent="1" style="" value="View Profile" vertex="1">
+          <mxGeometry height="48" width="484" x="116" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="u8U2fjMdBCgEXtrNAYDi-30" parent="1" style="" value="Update Profile Flow" vertex="1">
+          <mxGeometry height="48" width="484" x="116" y="251" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

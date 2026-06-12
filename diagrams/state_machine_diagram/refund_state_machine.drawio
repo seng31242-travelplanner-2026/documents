@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="gtJSBUj75DhSRMJlQquE">
+    <mxGraphModel dx="3116" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tUgqPGibmqBFUXHthAQB-1" parent="1" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="307" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-2" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="REQUEST_INITIALIZED" vertex="1">
+          <mxGeometry height="40" width="171" x="228" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AUTO_ELIGIBLE_PENDING" vertex="1">
+          <mxGeometry height="204" width="238" x="55" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-4" parent="tUgqPGibmqBFUXHthAQB-3" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="120" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-5" parent="tUgqPGibmqBFUXHthAQB-3" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AwaitingAdminQueue" vertex="1">
+          <mxGeometry height="40" width="168" x="43" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-6" edge="1" parent="tUgqPGibmqBFUXHthAQB-3" source="tUgqPGibmqBFUXHthAQB-4" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" target="tUgqPGibmqBFUXHthAQB-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="MANUAL_REVIEW_HOLD" vertex="1">
+          <mxGeometry height="204" width="222" x="417" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-8" parent="tUgqPGibmqBFUXHthAQB-7" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="112" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-9" parent="tUgqPGibmqBFUXHthAQB-7" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AdminInvestigating" vertex="1">
+          <mxGeometry height="40" width="152" x="43" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-10" edge="1" parent="tUgqPGibmqBFUXHthAQB-7" source="tUgqPGibmqBFUXHthAQB-8" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.51;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" target="tUgqPGibmqBFUXHthAQB-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="GATEWAY_PROCESSING" vertex="1">
+          <mxGeometry height="204" width="238" x="431" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-12" parent="tUgqPGibmqBFUXHthAQB-11" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="120" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-13" parent="tUgqPGibmqBFUXHthAQB-11" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ReverseAuthorization" vertex="1">
+          <mxGeometry height="40" width="168" x="43" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-14" edge="1" parent="tUgqPGibmqBFUXHthAQB-11" source="tUgqPGibmqBFUXHthAQB-12" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.51;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" target="tUgqPGibmqBFUXHthAQB-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-15" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="REJECTED" vertex="1">
+          <mxGeometry height="40" width="87" x="20" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-16" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="SUCCESS_REFUNDED" vertex="1">
+          <mxGeometry height="40" width="161" x="594" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-17" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="GATEWAY_FAILED_RETRY" vertex="1">
+          <mxGeometry height="40" width="190" x="469" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-18" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="MANUAL_ESCROW_ALERT" vertex="1">
+          <mxGeometry height="40" width="195" x="466" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-19" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="417" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-20" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-1" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-2" value="Booking cancelled within valid deadline">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-21" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-17" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-18" value="Repeated failures (Requires bank wire)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-22" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-18" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-16" value="Admin logs manual bank settlement offline">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="564" y="1101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-23" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-15" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.51;exitY=1;entryX=0;entryY=0.46;rounded=0;" target="tUgqPGibmqBFUXHthAQB-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="64" y="1215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-24" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-16" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=1;entryY=0.44;rounded=0;" target="tUgqPGibmqBFUXHthAQB-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674" y="1215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-25" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.27;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-3" value="System calculates clear policy compliance">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-26" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.74;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-7" value="System flags edge-case / Provider dispute">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-27" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.77;entryX=0.33;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-11" value="Admin signs off / confirms validity">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-28" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.1;exitY=1;entryX=0.46;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-15" value="Admin denies (Policy misinterpretation)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="34" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-29" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-7" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.75;entryX=1;entryY=0.1;rounded=0;" target="tUgqPGibmqBFUXHthAQB-11" value="Admin resolves in favor of Tourist">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="784" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-30" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-7" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.98;entryX=0.84;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-15" value="Admin resolves in favor of Provider">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-31" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-11" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.9;entryX=0.7;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-16" value="Gateway confirms settlement return">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="784" y="825" />
+              <mxPoint x="784" y="1101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-32" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-11" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.9;entryX=0.16;entryY=0;rounded=0;" target="tUgqPGibmqBFUXHthAQB-17" value="API error / Settlement window expired">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="344" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUgqPGibmqBFUXHthAQB-33" edge="1" parent="1" source="tUgqPGibmqBFUXHthAQB-17" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=0;entryX=0.5;entryY=1;rounded=0;" target="tUgqPGibmqBFUXHthAQB-11" value="System auto-retries webhook">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
