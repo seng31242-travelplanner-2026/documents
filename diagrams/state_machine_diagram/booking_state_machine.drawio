@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pmlnqfSADA8XJiT0meP_">
+    <mxGraphModel dx="2700" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-1" parent="1" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="352" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PENDING_APPROVAL" vertex="1">
+          <mxGeometry height="204" width="160" x="279" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-3" parent="zaC6PmsO37kW_Tjg21TY-2" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="9" x="81" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-4" parent="zaC6PmsO37kW_Tjg21TY-2" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Evaluating" vertex="1">
+          <mxGeometry height="40" width="90" x="43" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-5" edge="1" parent="zaC6PmsO37kW_Tjg21TY-2" source="zaC6PmsO37kW_Tjg21TY-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.51;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-6" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="REJECTED" vertex="1">
+          <mxGeometry height="40" width="87" x="20" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PENDING_PAYMENT" vertex="1">
+          <mxGeometry height="204" width="210" x="325" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-8" parent="zaC6PmsO37kW_Tjg21TY-7" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="106" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-9" parent="zaC6PmsO37kW_Tjg21TY-7" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AwaitingGateway" vertex="1">
+          <mxGeometry height="40" width="140" x="43" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-10" edge="1" parent="zaC6PmsO37kW_Tjg21TY-7" source="zaC6PmsO37kW_Tjg21TY-8" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.49;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-11" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="CANCELLED" vertex="1">
+          <mxGeometry height="40" width="98" x="158" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-12" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="CONFIRMED" vertex="1">
+          <mxGeometry height="204" width="186" x="560" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-13" parent="zaC6PmsO37kW_Tjg21TY-12" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="94" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-14" parent="zaC6PmsO37kW_Tjg21TY-12" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ActiveBooking" vertex="1">
+          <mxGeometry height="40" width="116" x="43" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-15" edge="1" parent="zaC6PmsO37kW_Tjg21TY-12" source="zaC6PmsO37kW_Tjg21TY-13" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.52;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-16" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="CANCELLED_ELIGIBLE_REFUND" vertex="1">
+          <mxGeometry height="40" width="234" x="537" y="1018" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-17" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="CANCELLED_NO_REFUND" vertex="1">
+          <mxGeometry height="40" width="192" x="306" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-18" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="COMPLETED" vertex="1">
+          <mxGeometry height="40" width="101" x="855" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-19" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="REFUND_PROCESSED" vertex="1">
+          <mxGeometry height="40" width="162" x="573" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-20" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="20" width="14" x="395" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-21" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-16" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-19" value="Admin &amp; Gateway Approve Refund">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-22" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-6" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.51;exitY=1;entryX=-0.01;entryY=0.45;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="64" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-23" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-11" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.42;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-24" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-17" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-25" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-19" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.99;entryY=0.44;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-26" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-18" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.99;entryY=0.47;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-27" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-1" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-2" value="Tourist Submits Booking Request">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-28" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.69;entryX=0.51;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-6" value="Provider Rejects Request / Overlap">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="64" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-29" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.83;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-7" value="Provider Accepts Request">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-30" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-7" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.85;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-11" value="Tourist Cancels / Payment Timeout">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-31" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-7" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.85;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-12" value="Payment Gateway Approves Transaction">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-32" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-12" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-16" value="Tourist Cancels (Before Deadline)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-33" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-12" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.77;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-17" value="Tourist Cancels (After Deadline)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaC6PmsO37kW_Tjg21TY-34" edge="1" parent="1" source="zaC6PmsO37kW_Tjg21TY-12" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.77;entryX=0.5;entryY=0;rounded=0;" target="zaC6PmsO37kW_Tjg21TY-18" value="Tour Date Arrives &amp; Provider Marks Finished">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

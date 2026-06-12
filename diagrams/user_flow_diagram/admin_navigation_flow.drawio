@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="cBFN0Qqza6h0ZqujTq9M">
+    <mxGraphModel dx="1212" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Login Page" vertex="1">
+          <mxGeometry height="54" width="136" x="247" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Admin Dashboard" vertex="1">
+          <mxGeometry height="54" width="184" x="223" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Select Management Module" vertex="1">
+          <mxGeometry height="250" width="250" x="190" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Manage Users" vertex="1">
+          <mxGeometry height="54" width="157" x="20" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Manage Services" vertex="1">
+          <mxGeometry height="54" width="177" x="227" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Manage Complaints" vertex="1">
+          <mxGeometry height="54" width="198" x="453" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Generate Reports" vertex="1">
+          <mxGeometry height="54" width="185" x="222" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-8" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-9" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-10" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.87;entryX=0.5;entryY=-0.01;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-4" value="Control Panel 1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-11" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-5" value="Control Panel 2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-12" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.5;entryY=-0.01;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-6" value="Control Panel 3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-13" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.08;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-14" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4BNKDGHA0D2IE1mrT41-15" edge="1" parent="1" source="i4BNKDGHA0D2IE1mrT41-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.12;rounded=0;" target="i4BNKDGHA0D2IE1mrT41-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
